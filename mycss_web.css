@@ -1,4 +1,14 @@
+@media print{
+  iframe{
+    display: none;
+  }
+}
+
 body{
-  background: #D01515;
+  color: #FFFFFF;
   align: center;
+}
+
+h3, h1{
+  color: #7C03A7;
 }

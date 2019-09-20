@@ -5,14 +5,72 @@
 }
 
 body{
-  background-color: #FFFFFF;
-  align: center;
+  margin: 0px;
+  margin-top: 0px;
+  padding: 0px;
 }
 
 h3, h1{
-  color: #7C03A7;
+  color: #000000 ;
 }
 
 p{
   color: #000000;
+}
+
+img[src^="https"]{
+  margin-top: 20px;
+  margin-right: 100px;
+  margin-left: 50px;
+}
+
+.nav a[href^="#"]{
+  align-items: center;
+  margin-left: 10px;
+  color: #000000;
+  border: 3px;
+}
+
+.content{
+  margin: auto;
+  align-items: center;
+  width: auto;
+  border: 3px solid green;
+  background-color: #87CEFA;
+}
+
+.top{
+  background-color: #4682B4;
+  margin: auto;
+  width: 100%
+}
+.content2 h1, img{
+  margin-left: 43%;
+  margin-right: 40%;
+  border: 3px solid blue;
+}
+
+.aboutMe, .aboutMe2{
+  margin-left: 25%;
+  align-items: center;
+  width: 50%;
+  border: 3px solid green;
+}
+
+.table{
+  width: 50%;
+  border: 3px solid yellow;
+  margin-left: 25%;
+}
+
+
+td{
+  width: 25%;
+  margin-left: auto;
+  border: 3px solid red;
+}
+
+form{
+  border:3px solid pink;
+  background-color: #ADD8E6;
 }

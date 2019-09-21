@@ -48,14 +48,14 @@
     width: 100%;
   }
   .content2 h1, img{
-    margin-left: 35%;
+    margin-left: 40%;
     margin-right: 25%;
     border: 3px;
     font-size: 34px;
   }
 
   .aboutMe, .education{
-    margin-left: 30%;
+    margin-left: 40%;
     align-items: center;
     width: 50%;
     border: 3px;

@@ -44,7 +44,7 @@
   .top{
     background-color: #4682B4;
     margin: auto;
-    width: 100%;
+    width: auto;
   }
   .content2 h1, img{
     margin-left: 43%;

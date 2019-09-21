@@ -3,3 +3,106 @@
     display: none;
   }
 }
+
+@media only screen and (max-width: 899px){
+  body{
+  margin: 0px;
+  margin-top: 0px;
+  padding: 0px;
+  background-color: #6A5ACD;
+  }
+
+  h3, h1{
+    color: #DCDCDC ;
+  }
+
+  p{
+    color: #000000;
+  }
+
+  img[src^="https"]{
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 50px;
+  }
+
+  .nav a[href^="#"],.nav h3{
+    align-items: center;
+    margin-left: 10px;
+    color: #DCDCDC;
+    border: 3px;
+    font-size: 18px;
+  }
+
+  .content{
+    margin: auto;
+    align-items: center;
+    width: auto;
+    border: 3px;
+    background-color: #6A5ACD;
+  }
+
+  .top{
+    background-color: #4B0082;
+    margin: auto;
+    width: 100%
+  }
+  .content2 h1, img{
+    margin-left: 40%;
+    margin-right: 25%;
+    border: 3px;
+    font-size: 34px;
+  }
+
+  .aboutMe, .education{
+    margin-left: 40%;
+    align-items: center;
+    width: 50%;
+    border: 3px;
+  }
+
+  .aboutMe b{
+    margin-left: 20%;
+    color: #DCDCDC
+  }
+
+  span{
+    color: #DC143C;
+  }
+
+  .aboutMe2{
+    margin-left: 25%;
+    text-align: center;
+    font-weight: bold;
+    width: 60%;
+  }
+
+  .aboutMe2 p{
+    text-align: left;
+    margin-left: 3%;
+  }
+
+  .aboutMe2 li, .aboutMe2 ol{
+    width: 65%;
+    margin-left: 15%;
+  }
+
+  .table{
+    width: 60%;
+    border: 3px;
+    margin-left: 25%;
+  }
+
+
+  td{
+    width: 25%;
+    margin-left: auto;
+    border: 3px;
+  }
+
+  form{
+    border:3px;
+    background-color: #7B68EE;
+  }
+
+}

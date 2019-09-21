@@ -45,7 +45,7 @@
   .top{
     background-color: #4B0082;
     margin: auto;
-    width: 100%
+    width: 100%;
   }
   .content2 h1, img{
     margin-left: 40%;
@@ -103,6 +103,7 @@
   form{
     border:3px;
     background-color: #7B68EE;
+    width: 100%;
   }
 
 }

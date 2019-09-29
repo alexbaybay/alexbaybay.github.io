@@ -1,0 +1,100 @@
+@media print{
+  iframe {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 900px){
+  body{
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    background-color: #87CEFA;
+  }
+
+  .content{
+    margin: auto;
+    align-items: center;
+    width: auto;
+    /*border: 3px solid red;*/
+    background-color: #87CEFA;
+  }
+
+  .top{
+    background-color: #4682B4;
+    margin: auto;
+    width: auto;
+    /*border: 3px solid green;*/
+  }
+
+  h3, h1{
+    color: #000000 ;
+    margin: auto;
+  }
+
+  p{
+    color: #000000;
+  }
+
+  .content2 h1{
+    margin:auto;
+    text-align: center;
+    /*border: 3px solid pink;*/
+  }
+
+  .content2 img{
+    margin: auto;
+    display:block;
+    /*border: 3px solid yellow;*/
+  }
+
+  .aboutMe, .education, .aboutMe2, li, ol{
+    margin:auto;
+    text-align: center;
+    width: 50%;
+    border: 3px;
+  }
+
+  img[src^="https"]{
+    margin:auto;
+    width: auto;
+  }
+
+  .nav a[href^="#"]{
+    align-items: center;
+    margin-left: 10px;
+    color: #000000;
+    border: 3px;
+  }
+
+  span{
+    color: #FF0000;
+  }
+
+  .aboutMe2 p{
+    margin-left: auto;
+    text-align: center;
+    width: auto;
+    font-weight: bold;
+  }
+
+  .table{
+    width: 50%;
+    border: 3px;
+    margin-left: 25%;
+  }
+
+
+  td{
+    width: 25%;
+    margin-left: auto;
+    border: 3px;
+  }
+
+  form{
+    border:3px;
+    background-color: #ADD8E6;
+    width: 100%;
+  }
+
+}

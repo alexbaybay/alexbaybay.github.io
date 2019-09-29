@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> My Profile with Bootstrap </title>
+  <link rel="stylesheet" href="bootstrap_css/mycss_web.css" media="">
+  <link rel="stylesheet" href="bootstrap_css/mycss_tablet.css" media="">
+  <meta name="viewport" type="text/css" content="width=device-width">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <h3 style="color:#FFFFFF">MENU</h3>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#about_me">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#fav_web">Favorite Websites</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#fav_vids">Favorite Music Videos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#interest">General Interest</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <h1 class="text-center"> Alexandra Baybay <img src="\Users\funni\OneDrive\Pictures/flower.jpg" class="rounded-circle" width="200" height="200"></h1>
+    </div>
+    <!--/static/flower.jpg-->
+    <p></p>
+
+    <div class="container-fluid" id="body">
+      <div class="row2">
+        <p><b> St. John's University - 2020 </p>
+        <p>Major: Computer Science</p>
+        <p>Concetration: Business Administration</p></b>
+      </div>
+
+      <div class="tables">
+        <table class="table container-fluid" id="lang">
+          <thead>
+            <tr>
+              <th>Programming Skills</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td><i>Java - Intermidate</i></td>
+            </tr>
+            <tr>
+              <td><i>Python - Beginner</i></td>
+            </tr>
+            <tr>
+              <td><i>html - Intermidate</i></td>
+            </tr>
+            <tr>
+              <td><i>CSS - Beginner</i></td>
+            </tr>
+            <tr>
+              <td><i>JavaScript - Beginner</i></td>
+            </tr>
+          </tbody>
+
+        </table>
+
+        <table class="table container-fluid">
+          <thead>
+            <tr>
+              <th>Work Experience</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td><i>Walgreens - Floor Associate</i></td>
+            </tr>
+            <tr>
+              <td><i>Community Service Society of New York - Human Resource Intern</i></td>
+            </tr>
+            <tr>
+              <td></td>
+            </tr>
+          </tbody>
+
+        </table>
+      </div>
+
+      <div class="row" id="column">
+        <div class="col-sm-4">
+          <a name="about_me">
+            <h3>About Me</h3>
+          </a>
+          <ul>
+            <li>My nickname: Alex.</li>
+            <li>I love the color <span>red.</li>
+            <li>I am a senior in college.</li>
+          </ul>
+        </div>
+
+        <div class="col-sm-4">
+          <a name="interest">
+            <h3>General Interest</h3>
+          </a>
+          <ol>
+            <li>Watching movies</li>
+            <li>Reading books</li>
+            <li>Listening to music</li>
+          </ol>
+        </div>
+
+        <div class="col-sm-4" id="favweb">
+          <a name="fav_web" class>
+            <h3>Favorite Website</h3>
+          </a>
+            <ul>
+              <li><a href="https://www.youtube.com">Youtube</a></li>
+              <li><a href="https://www.amazon.com">Amazon</a></li>
+              <li><a href="https://www.netflix.com">Netflix</a></li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="aboutMe2">
+        <ul>
+          <a name="fav_vids">
+            <h3>Favorite Musical Videos</h3>
+          </a>
+
+          <p>Thank You Next - Arianna Grande</p>
+          <iframe width="460" height="215" src="https://www.youtube.com/embed/TFVMUItJvN4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          <p>Sorry not Sorry - Demi Lovato</p>
+          <iframe width="460" height="215" src="https://www.youtube.com/embed/-MsvER1dpjM">
+          </iframe>
+        </ul>
+
+        <img src="https://st4.depositphotos.com/19447108/22041/i/1600/depositphotos_220417920-stock-photo-skull-flowers-roses-drawing-hand.jpg" width="350" height="350">
+      </div>
+
+    </div>
+  </div>
+  <div class="container-fluid" id="form">
+    <form class="form-inline" action="">
+
+    <label for="name">Name:</label>
+    <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+
+    <label for="email">Email:</label>
+    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  </div>
+</body>
+
+</html>

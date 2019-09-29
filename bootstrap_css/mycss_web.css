@@ -1,0 +1,142 @@
+@media print{
+  iframe {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 900px){
+  body{
+    margin: auto;
+    width: auto;
+    background-color: #87CEFA;
+    /*border: 3px solid lime;*/
+  }
+
+  .navbar{
+    position:fixed;
+  }
+
+  .row{
+    margin: auto;
+    width: auto;
+    background-color: #4682B4;
+    /*border: 3px solid red;*/
+  }
+
+  .row h1{
+    width: auto;
+    margin: auto;
+    /*border: 3px solid red;*/
+  }
+
+  #image{
+    align-items:center;
+    display:grid;
+    border: 3px solid lime;
+  }
+
+  .container-fluid{
+    width: auto;
+    margin: auto;
+    background-color: #87CEFA;
+    /*border: 3px solid orange;*/
+  }
+
+  #body {
+    width: ;
+    margin: auto;
+    text-align: center;
+    background-color: #87CEFA;
+    /*border: 3px solid red;*/
+  }
+
+  .row2{
+    margin: auto;
+    width: auto;
+    text-align: center;
+    color: #000000;
+    background-color: #87CEFA;
+    /*border: 3px solid lime;*/
+  }
+
+  .tables {
+    width: auto;
+    margin: auto;
+    margin-bottom: 5%;
+    text-align: center;
+    color: #000000;
+    /*border: 3px solid yellow;*/
+  }
+
+  #lang{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    /*border: 3px solid black;*/
+  }
+
+  #column{
+    background-color: #87CEFA;
+    color: black;
+    /*border: 3px solid black;*/
+  }
+
+  .col-sm-4{
+    margin: auto;
+    margin-bottom: 30px;
+    width: 50%;
+    text-align: center;
+    /*border: 3px solid yellow;*/
+  }
+
+  .col-sm-4 ul, .col-sm-4 ol{
+    color: black;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    /*border: 3px solid red;*/
+  }
+
+  .col-sm-4 li{
+    width: auto;
+    border: 1px solid
+  }
+
+  span{
+    color: red;
+  }
+
+  a h3, a[href^="https"] {
+    color: black;
+    margin: auto;
+    width: auto;
+    /*border: 3px solid lime;*/
+  }
+
+  .aboutMe2 {
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    /*border: 3px solid yellow;*/
+  }
+
+  .aboutMe2 p {
+    text-align: center;
+    margin: auto;
+    width: auto;
+    color: #000000;
+    /*border: 3px solid orange;*/
+  }
+
+  img[src^="https"] {
+    margin-bottom: 20px;
+  }
+
+  #form {
+    /*border:3px solid pink;*/
+    background-color: #ADD8E6;
+    width: auto;
+    margin: auto;
+  }
+
+}

@@ -1,0 +1,147 @@
+@media print{
+  iframe {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 899px){
+
+  body{
+  margin: 0px;
+  margin-top: 0px;
+  padding: 0px;
+  background-color: #6A5ACD;
+  /*border: 3px solid red;*/
+  }
+
+  .content{
+    margin: auto;
+    align-items: center;
+    width: auto;
+    background-color: #6A5ACD;
+    /*border: 3px solid red;*/
+  }
+
+  .top{
+    background-color: #4B0082;
+    margin: auto;
+    width: auto;
+    /*border: 3px solid green;*/
+  }
+
+  .nav a{
+    margin-top: 30px;
+  }
+
+  .content2 {
+    margin:auto;
+    margin-top: 30px;
+    text-align: center;
+    color: #DCDCDC;
+    /*border: 3px solid pink;*/
+    background-color: #4B0082
+  }
+
+  .content2 img{
+    margin: auto;
+    display:block;
+    /*border: 3px solid yellow;*/
+  }
+
+  h3{
+    color: #DCDCDC ;
+    margin:auto;
+    width:auto;
+    /*border: 3px solid lime;*/
+  }
+
+  p{
+    color: #000000;
+    /*border: 3px solid pink;*/
+  }
+
+  .aboutMe, .education{
+    margin: auto;
+    text-align: center;
+    width: auto;
+    /*border: 3px solid lime;*/
+  }
+
+  .aboutMe li{
+    margin: auto;
+    width: 40%;
+    /*border: 3px solid red;*/
+  }
+
+  .aboutMe b{
+    margin: auto;
+    color: #DCDCDC;
+  }
+
+  img[src^="https"]{
+    margin:auto;
+    /*border: 3px solid lime;*/
+  }
+
+  .nav a[href^="#"],.nav h3{
+    align-items: center;
+    margin-left: 10px;
+    color: #DCDCDC;
+    border: 3px;
+    font-size: 18px;
+    /*border: 3px solid green;*/
+  }
+
+  span{
+    color: #DC143C;
+  }
+
+  .aboutMe2{
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    /*border: 3px solid yellow;*/
+  }
+
+  .aboutMe2 p{
+    text-align: center;
+    margin: auto;
+    width: auto;
+    /*border: 3px solid orange;*/
+  }
+
+  .aboutMe2 li, .aboutMe2 ol{
+    width: 65%;
+    margin: auto;
+    /*border: 3px solid green;*/
+  }
+
+  .table{
+    width: auto;
+    margin:auto;
+    /*border: 3px solid yellow;*/
+  }
+
+  th{
+    width: auto;
+    /*border: 3px solid orange;*/
+  }
+
+  td{
+    width: auto;
+    /*border: 3px solid skyblue;*/
+  }
+
+  iframe{
+    width:auto;
+  }
+
+  form{
+    /*border:3px solid pink;*/
+    background-color: #7B68EE;
+    width: auto;
+    margin: auto;
+  }
+
+}

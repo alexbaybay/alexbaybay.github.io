@@ -1,0 +1,266 @@
+body{
+  margin: 0px;
+}
+
+nav{
+  background-color: #AACBF0;
+  margin-right: 0px;
+  /* border: 3px solid red; */
+}
+
+/* #navbar{
+  background-color: #AACBF0;
+    border: 3px solid red;
+} */
+
+.nav-link:hover {
+  background-color: #bbd5f3;
+}
+
+#collapsibleNavbar{
+  text-align: left;
+  position: relative;
+  left: -130px;
+  top: 70px;
+  /* border: 3px solid orange; */
+}
+
+span{
+  color: #000000;
+  font-size: 18px;
+  font-weight:bold;
+  margin: 10px;
+    /* border: 3px solid orange; */
+}
+
+p{
+  font-size: 18px;
+}
+
+#name{
+  color:black;
+  font-family:sans-serif;
+  padding: 10px;
+}
+
+
+
+
+/* Homepage set up */
+/* rounded edge with a shadow*/
+#about{
+  margin-top: 3%;
+  border-radius: 25px;
+  border: 3px solid #69a3e5;
+  padding: 20px;
+  box-shadow: 5px 10px #90c4ff;
+}
+
+.row{
+  padding: 20px;
+}
+
+#story_news{
+  margin-top: 3%;
+  width: 50%;
+  height: auto;
+  border-radius: 25px;
+  border: 3px solid #69a3e5;
+  box-shadow: 5px 10px #90c4ff;
+}
+
+#story_news h5{
+  text-align: center;
+  text-decoration: underline;
+}
+
+#story_news li{
+  font-size: 18px;
+  padding: 2%;
+}
+
+#tweet{
+  text-align: left;
+  text-decoration: underline;
+}
+
+#tweet .column{
+  padding: 20px;
+  width: 33%;
+  display: inline-block;
+  /* border: 3px solid orange; */
+}
+
+
+
+
+/* people set up */
+#faculty .grid-container {
+  display: grid;
+  /* sets how many columns there will be */
+  /* if template is auto auto auto auto, will have 4 collumns */
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+#faculty .grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  /* border: 3px solid orange; */
+}
+
+#profile{
+  text-align: center;
+  padding: 20px;
+  /* border: 3px solid orange; */
+}
+
+#occupation .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* padding: 10px; */
+}
+#occupation .grid-item {
+  font-size: 18px;
+  text-align: left;
+  padding: 10px;
+  /* border: 3px solid orange; */
+}
+
+#skills .row{
+  padding: inherit;
+}
+
+#skills .column{
+  font-size: 18px;
+  padding: 10px;
+  /* border: 3px solid orange; */
+}
+
+#research .grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  /* padding: 10px; */
+}
+
+#research .grid-item {
+  font-size: 18px;
+  text-align: left;
+  padding: 10px;
+  /* border: 3px solid red; */
+}
+
+#research a {
+  /* color: black; */
+  font-size: 22px;
+  font-weight: 600;
+  /* text-decoration: underline; */
+  /* border: 3px solid orange; */
+}
+
+
+
+
+/* Area of Interest set up */
+#interests p{
+  text-align: left;
+}
+
+.machine_learning{
+  margin-top: 20px;
+}
+
+.machine_learning img, .AI img{
+  width: 350px;
+  height: 250px;
+  padding-right: 10px;
+  float: left;
+  margin-bottom: 5px;
+  /* border: 3px solid orange; */
+}
+
+.comp_neuro{
+  margin-top: 40px;
+}
+
+.comp_neuro img{
+  width: 350px;
+  height: 250px;
+  padding-left: 10px;
+  float: right;
+}
+
+.AI{
+  margin-top: 30px;
+}
+
+.AI img{
+  width: 350px;
+  height: 250px;
+  padding-right: 10px;
+  float: left;
+}
+
+.data_mining{
+  margin-top: 30px;
+}
+
+.data_mining img{
+  width: 350px;
+  height: 250px;
+  padding-left: 10px;
+  float: right;
+}
+
+
+
+
+/* curr_projects set up */
+#projects b{
+  font-size: 20px;
+}
+
+#projects p{
+  font-size: 14px;
+}
+
+#descript{
+  border-radius: 25px;
+  border: 3px solid #69a3e5;
+  padding: 20px;
+  box-shadow: 5px 10px #90c4ff;
+  margin-bottom: 2%;
+}
+
+#proj{
+  text-align: center;
+  padding: 20px;
+  /* border: 3px solid orange; */
+}
+
+#figures .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 10px;
+  /* padding: 10px; */
+  /* border: 3px solid orange; */
+}
+
+#figures .grid-item p{
+  font-size: 12px;
+  text-align: left;
+  margin-right: 50px;
+  /* border: 3px solid orange; */
+}
+
+
+
+/* publications */
+
+#pub p{
+  font-size: 12px;
+}
+
+#pub a{
+  font-size: 18px;
+}
